@@ -1,7 +1,6 @@
-import React from 'react'
 import { cn } from '~/utils/util'
-import { useTheme } from "next-themes"
 import { Button } from '~/components/ui/button'
+import React from 'react'
 
 export function CommandMenu() {
 
