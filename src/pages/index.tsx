@@ -1,7 +1,7 @@
 import HomeLayout from '~/layouts/home-layout'
 import { Header } from '~/components/dashboard/header'
-import { CommandMenu } from '~/components/dashboard/commandMenu'
 import { MainNav } from '~/components/dashboard/main-nav'
+
 
 export default function Home() {
   return (
@@ -11,8 +11,11 @@ export default function Home() {
           <MainNav />
           <div className="flex flex-1 items-center justify-between space-x-2 md:justify-end">
             <div className="w-full flex-1 md:w-auto md:flex-none">
-              <CommandMenu />
+              
             </div>
+            <nav className="flex items-center">
+
+            </nav>
           </div>
         </div>
       </Header>
