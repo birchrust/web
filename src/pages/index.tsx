@@ -1,10 +1,9 @@
-import HomeLayout from '~/layouts/home-layout'
-import { Header } from '~/components/header/header'
+import RootLayout from '~/layouts/layout'
 
 export default function Home() {
   return (
-    <HomeLayout>
-      <Header />
-    </HomeLayout>
+    <RootLayout>
+      <div className="container relative"></div>
+    </RootLayout>
   )
 }
